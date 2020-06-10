@@ -1,8 +1,8 @@
 # Password-Generator
 
-## Website URL: 
+## Website URL:  https://sushmakaluva.github.io/Password-Generator/
 
-## Description
+### Description
 
 * This Password Generator is a tool that generates strong and unpredictable passwords that are impossible to crack for each of our accounts.
 
