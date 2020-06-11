@@ -12,6 +12,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
@@ -19,7 +20,7 @@
         <h1>Password Generator</h1>
       </header>
         <div class="jumbotron p-5 m-5">
-            <h2>Generate a Password</h2>
+            <h3>Generate a Password</h2>
             <hr />
             <form>
             <div class="form-group">
@@ -36,13 +37,14 @@
             
             <hr />
             <div class="row">
-                <div class="col-lg-6">
-                    <button id="generate" class="btn btn-lg btn-success rounded-pill" onclick="inputLength()">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center btn-padding">
+                    <button id="generate" class="btn btn-success rounded-pill" id="btn1" onclick="inputLength()">
                         Generate Password
                         </button>
                 </div>
-                <div class="col-lg-6">
-                    <button id="copy" class="btn btn-lg btn-secondary rounded-pill" onclick="copyToClipboard()">
+              
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+                    <button id="copy" class="btn btn-secondary rounded-pill" id="btn2" onclick="copyToClipboard()">
                         Copy to Clipboard
                         </button>
                 </div>

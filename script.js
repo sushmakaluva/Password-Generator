@@ -9,8 +9,6 @@ function inputLength() {
     }
 }
 
-
-
 function prompts() {
     var specialChar, numbers, lowerCase, upperCase;
     specialChar = confirm("Do you want to have special characters in your password?");
@@ -42,13 +40,13 @@ function generatePassword(isSpecialChar, isNumbers, isLowerCase, isUpperCase, pa
     for (var i = 0; i < passwordLength; i++) {
         res = res + finalCharSet.charAt(Math.floor(Math.random() * finalCharSet.length));
     }
-    
-    document.getElementById("password").textContent=res;
+
+    document.getElementById("password").textContent = res;
 
 }
 
 
-function copyToClipboard(){
+function copyToClipboard() {
     var copyText = document.getElementById("password");
     copyText.select();
     document.execCommand("copy");
