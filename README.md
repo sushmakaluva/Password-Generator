@@ -11,10 +11,17 @@
 * The user on clicking 'Generate password' asks for a Password length that he would like to choose.
 * Then the user is asked to choose criteria from the different character types:
 
+<<<<<<< HEAD
   * Special characters
   * Numeric characters
   * Lowercase characters
   * Uppercase characters
+=======
+* Special characters
+* Numeric characters
+* Lowercase characters
+* Uppercase characters
+>>>>>>> 7e103953701f3ed6d993cd590639afabf9701f44
 
 * The application validates user input and ensures that at least one character type is selected.
 * Once all prompts are answered, the user will be presented with a password matching the answered prompts.
