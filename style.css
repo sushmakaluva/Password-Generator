@@ -1,16 +1,16 @@
 .container {
-   border: 3px solid black;
+  border: 3px solid black;
+  background-color: lightslategrey;
+}
 
+body {
+  background-color: mediumaquamarine;
 }
 
 .form-control {
-border: black dotted;
+  border: black dotted;
 }
 
-.btn-padding{
-   padding-bottom: 15px;
+.btn-padding {
+  padding-bottom: 15px;
 }
-
-
-
-
